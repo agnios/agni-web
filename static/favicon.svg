@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+ <defs>
+  <linearGradient id="a" x1=".48438" x2=".48047" y1=".074219" y2=".81641">
+   <stop stop-color="#ff7f00" stop-opacity=".996" offset=".007813"/>
+   <stop stop-color="#bf0000" stop-opacity=".996" offset="1"/>
+  </linearGradient>
+  <linearGradient id="e" x1=".48828" x2=".46094" y1=".26562" y2="1">
+   <stop stop-color="#ff7f00" stop-opacity=".996" offset=".015625"/>
+   <stop stop-color="#bf0000" stop-opacity=".996" offset=".54688"/>
+   <stop stop-color="#bf0000" stop-opacity=".996" offset="1"/>
+  </linearGradient>
+  <linearGradient id="d" x1=".48438" x2=".46094" y1=".32812" y2="1">
+   <stop stop-color="#ff7f00" stop-opacity=".996" offset=".015625"/>
+   <stop stop-color="#bf0000" stop-opacity=".996" offset=".54688"/>
+   <stop stop-color="#bf0000" stop-opacity=".996" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g stroke-width="0">
+  <text x="71" y="231" font-family="Arial" font-size="24" opacity=".5" stroke="#096388" stroke-dasharray="null" stroke-linejoin="null" text-anchor="middle"/>
+  <path d="m187 43.5c32.567 40.133-16.167 101-76 203.5s74 154.17 84.667 155.17-52-39.167-32.167-100.17c19.833-61 67.533-95.533 79.5-142.1s-88.567-156.53-56-116.4z" fill="url(#d)" stroke="url(#a)" stroke-linejoin="round"/>
+  <g fill="url(#e)" stroke="url(#a)" stroke-linejoin="null">
+   <path transform="rotate(-3.264 236.86 259.84)" d="m268.56 161.45c2.8655 6.7754 3.6942 18.909-0.71606 32.924-4.4103 14.014-10.06 24.309-22.15 41.006s-23.67 27.389-47.304 63.122c-23.633 35.733 17.157 74.648 9.8644 61.651s5.298-36.78 17.459-52.519c12.161-15.738 20.191-22.921 32.048-38.12s23.687-39.454 24.555-53.206c0.86816-13.752 0.95346-18.142-3.6351-33.244s-15.853-35.165-10.122-21.614z"/>
+   <path d="m241.62 393.22c-5.1723 9.1626-6.6482-19.291 2.5574-43.922s38.264-46.296 50.758-69.597 20.385-58.537 10.368-77.282 1.7688 2.1575 10.212 15.57c8.4437 13.413 13.196 23.27 12.985 45.203-0.21112 21.933-5.9426 47.65-43.783 81.278-37.841 33.628-37.925 39.587-43.097 48.75z" stroke-dasharray="null"/>
+  </g>
+ </g>
+</svg>

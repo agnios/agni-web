@@ -16,7 +16,7 @@
         <img src="https://img.icons8.com/ios-filled/30/ffffff/menu--v1.png" alt="/" class="h-6 w-6 sm:mx-32 sm:mx-12 mx-8 sm:mt-12 mt-8"/>
     </div>
 </div>
-<Drawer transitionType="fly" {transitionParams} bind:hidden={hidden2} id="sidebar2" class="bg-gradient-to-b from-orange-500/90 to-black !important">
+<Drawer transitionType="fly" {transitionParams} bind:hidden={hidden2} id="sidebar2" class="rounded-md bg-gradient-to-b from-orange-500/90 to-black !important">
     <div class="flex items-center">
         <h5 id="drawer-navigation-label-3" class="text-base font-semibold text-gray-200 uppercase dark:text-gray-400">Menu</h5>
         <CloseButton on:click={() => (hidden2 = true)} class="mb-4 dark:text-white" />
