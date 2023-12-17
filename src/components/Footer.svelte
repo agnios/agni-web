@@ -14,7 +14,7 @@
                     <a href="#" class="hover:underline me-4 md:me-6">About</a>
                 </li>
                 <li>
-                    <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+                    <a href="https://docs.agnios.org" class="hover:underline me-4 md:me-6">Docs</a>
                 </li>
                 <li>
                     <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>

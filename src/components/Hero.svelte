@@ -1,10 +1,14 @@
 <script>
     import agni from '../assets/agnios-logo.png';
-    import infoIcon from '../assets/infoIcon.png';
 </script>
+<style>
+    .line{
+        line-height: normal;
+    }
+</style>
 <div>
     <!-- <hr><hr> -->
-    <section class="text-gray-600 body-font py-5 px-5 md:px-16">
+    <section class="text-gray-600 body-font py-5 px-5 md:px-16 md:h-screen">
         <div
                 class="w-11/12 mx-auto flex md:py-16 py-5 md:flex-row flex-col pb-5 items-center md:"
         >
@@ -17,20 +21,20 @@
                     class="lg:flex-grow lg:pr-0 md:pr-12 flex flex-col md:items-start md:text-left mb-10 md:mb-0 items-center text-start font-title"
             >
                 <h1
-                        class="2xl:text-6xl xl:text-5xl sm:text-4xl text-3xl mb-2 text-white font-semibold sm:text-start"
+                        class="line 2xl:text-6xl xl:text-5xl sm:text-4xl text-3xl mb-2 text-white font-semibold sm:text-start"
                 >
                     Customise your computing experience with AGNI OS          </h1>
-                <p class="mb-8 leading-relaxed text-orange-500 sm:text-sm text-xs font-semibold">
+                <p class="mb-8 text-center leading-relaxed text-orange-500 sm:text-sm text-xs font-semibold">
                     Agni OS • An Arch Based Linux Distribution • Built for Developers
                 </p>
-                <p class="mb-8 leading-relaxed text-[#D0D5DD] sm:text-base text-md">
+                <p class="mb-8 leading-relaxed text-[#D0D5DD] sm:text-base text-md text-center">
                     Fast and Modern operating system for the busy developer
                 </p>
                 <div class="flex items-center gap-2 md:gap-4 flex-wrap justify-center">
                     <div class="flex justify-center h-min">
                         <a
                                 class="button-gradient inline-flex text-white h-12 bg-[#C81400] shadow-base shadow-gray-500 border-white border-y-2 py-2 px-6 focus:outline-none rounded-3xl text:base md:text-lg hover:bg-orange-700"
-                                href="https://www.youtube.com/watch?v=8kL1NEtSIi4"
+                                href="https://www.youtube.com/demonkillerr"
                                 target="_blank">Explore</a
                         >
                     </div>
@@ -43,8 +47,8 @@
                         class="hidden md:flex absolute z-30 pt-20 m-14 w-48 h-52 xl:w-[400px] xl:h-[300px] opacity-30 blur-2xl flex-none order-4 rounded-full pointer-events-none"
                 >
                 </div>
-                <div class="z-50 flex align-middle rounded-xl m-2">
-                    <img class="w-full object-contain h-1/2 sm:h-80" src={agni} />
+                <div class="sm:z-50 flex align-middle rounded-xl m-2">
+                    <img class="w-full object-contain sm:h-80" src={agni} />
                 </div>
             </div>
         </div>
@@ -74,23 +78,4 @@
         </div>
     </dialog>
 </div>
-<!--<script>-->
-<!--    const requirements = document.getElementById("requirements");-->
-<!--    const req_btn = document.getElementById("req-btn");-->
-<!--    const insideReq = document.getElementById("inside-req");-->
-<!--    const closeReq = document.getElementById("close-req");-->
-<!--    req_btn.addEventListener("click", function () {-->
-<!--        // console.log("opennnn");-->
-<!--        requirements.showModal();-->
-<!--    });-->
-<!--    closeReq.addEventListener("click", function () {-->
-<!--        // console.log("closeee");-->
-<!--        requirements.close();-->
-<!--    });-->
-<!--    window.onclick = function (event) {-->
-<!--        if (event.target.contains(insideReq) && event.target !== insideReq) {-->
-<!--            requirements.close();-->
-<!--            // console.log("clickkk outsidee");-->
-<!--        }-->
-<!--    };-->
-<!--</script>-->
+

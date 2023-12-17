@@ -33,6 +33,8 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"flowbite": "^2.2.1"
+		"flowbite": "^2.2.1",
+		"flowbite-svelte": "^0.44.20",
+		"flowbite-svelte-icons": "^0.4.5"
 	}
 }
