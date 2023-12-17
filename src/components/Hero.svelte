@@ -7,8 +7,7 @@
     }
 </style>
 <div>
-    <!-- <hr><hr> -->
-    <section class="text-gray-600 body-font py-5 px-5 md:px-16 md:h-screen">
+    <section class="text-gray-600 body-font py-24 px-5 md:px-16 md:h-screen">
         <div
                 class="w-11/12 mx-auto flex md:py-16 py-5 md:flex-row flex-col pb-5 items-center md:"
         >
@@ -23,6 +22,11 @@
                 <h1
                         class="line 2xl:text-6xl xl:text-5xl sm:text-4xl text-3xl mb-2 text-white font-semibold sm:text-start"
                 >
+
+<!--                    <div-->
+<!--&lt;!&ndash;                            class="absolute z-30 -translate-y-1/4 py-0 left-50 w-32 sm:w-80 h-96 bg-gradient-to-r from-red-200 via-orange-500 to-yellow-100 opacity-30 blur-3xl flex-none order-4 rounded-xl transform -rotate-45 pointer-events-none"&ndash;&gt;-->
+<!--                    >-->
+<!--                    </div>-->
                     Customise your computing experience with AGNI OS          </h1>
                 <p class="mb-8 text-center leading-relaxed text-orange-500 sm:text-sm text-xs font-semibold">
                     Agni OS • An Arch Based Linux Distribution • Built for Developers
@@ -47,6 +51,11 @@
                         class="hidden md:flex absolute z-30 pt-20 m-14 w-48 h-52 xl:w-[400px] xl:h-[300px] opacity-30 blur-2xl flex-none order-4 rounded-full pointer-events-none"
                 >
                 </div>
+                <div
+                        class="absolute z-30 -translate-y-3 py-0 left-50 w-32 sm:w-80 h-96 bg-gradient-to-r from-red-200 via-orange-500 to-yellow-100 opacity-40 blur-3xl flex-none order-4 rounded-xl transform -rotate-45 pointer-events-none"
+                >
+                </div>
+
                 <div class="sm:z-50 flex align-middle rounded-xl m-2">
                     <img class="w-full object-contain sm:h-80" src={agni} />
                 </div>

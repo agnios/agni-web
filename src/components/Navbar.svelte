@@ -13,7 +13,7 @@
 
 <div class="text-center">
     <div on:click={() => (hidden2 = false)}>
-        <img src="https://img.icons8.com/ios-filled/30/ffffff/menu--v1.png" alt="/" class="h-6 w-6 sm:mx-32 mx-12 mt-4"/>
+        <img src="https://img.icons8.com/ios-filled/30/ffffff/menu--v1.png" alt="/" class="h-6 w-6 sm:mx-32 mx-12 sm:mt-12"/>
     </div>
 </div>
 <Drawer transitionType="fly" {transitionParams} bind:hidden={hidden2} id="sidebar2" class="bg-gradient-to-b from-orange-500/90 to-black !important">
