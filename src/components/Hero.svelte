@@ -7,7 +7,7 @@
     }
 </style>
 <div>
-    <section class="text-gray-600 body-font py-24 px-5 md:px-16 md:h-screen">
+    <section class="text-gray-600 body-font sm:py-24 px-5 md:px-16 md:h-screen">
         <div
                 class="w-11/12 mx-auto flex md:py-16 py-5 md:flex-row flex-col pb-5 items-center md:"
         >
